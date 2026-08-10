@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-10T16:43:32.854Z",
+  "expected": 50,
+  "covered": 50,
+  "unresolvedLinks": 0,
+  "entries": [
+    {
+      "sourcePath": "00-Dashboard.md",
+      "sourceHash": "dd2f00ad48ab55637a554165d4380b6b87d228a6fcf2f0ac71acc3d6d7974016",
+      "publicHash": "dd2f00ad48ab55637a554165d4380b6b87d228a6fcf2f0ac71acc3d6d7974016",
+      "recordId": "source-01-00-dashboard",
+      "disposition": "published",
+      "output": "/dashboard",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-01-Foundations.md",
+      "sourceHash": "9733a9ef7667043ee5e0b26b67ac75d5d43d2da72de9ca80c6b850d3efbf5d5d",
+      "publicHash": "9733a9ef7667043ee5e0b26b67ac75d5d43d2da72de9ca80c6b850d3efbf5d5d",
+      "recordId": "source-02-week-01-foundations",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-02-Setup.md",
+      "sourceHash": "798c2b8f25839153f58414045a7175ded958955756a07cb6dfe3f05cd218805e",
+      "publicHash": "798c2b8f25839153f58414045a7175ded958955756a07cb6dfe3f05cd218805e",
+      "recordId": "source-03-week-02-setup",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-03-Studio-Workflow.md",
+      "sourceHash": "d08d4968e039be07a55186e285773eff89b38dfa79dd48b43881f133a55a6f73",
+      "publicHash": "64b3dbef89334e91afab744b08addf708c8c92b938edf1b3cde04bffff9f9ffe",
+      "recordId": "source-04-week-03-studio-workflow",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-04-Smoke-Test.md",
+      "sourceHash": "e8e86fb813dd8d3b0fadc7b61d17711ec638d5ae77453e383d602c9ae40142a7",
+      "publicHash": "45afc86850272f20d305abf68003b9dbbb7572a09e0dee7c889aa225ad8fb938",
+      "recordId": "source-05-week-04-smoke-test",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-05-Dataset-Engineering.md",
+      "sourceHash": "3dce2451b6cbe960cc68744d5934719a72fd8f074a5bd8d5dc8eb3b8c6af2293",
+      "publicHash": "a5787c8965b9517c3715c985a2bc6128bf8bf72ee497b9a8ed70526f7285710c",
+      "recordId": "source-06-week-05-dataset-engineering",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-06-First-QLoRA.md",
+      "sourceHash": "1a32b7d0d0a965a9eb9ea68f85cf8ec92ef3595dc33021df382cbef34b800f0b",
+      "publicHash": "b69b32d340386f18c9fd948fd8d7f9ef782651544c9d647847b5c82bace9ad91",
+      "recordId": "source-07-week-06-first-qlora",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-07-Controlled-Experiments.md",
+      "sourceHash": "4ee347787940aa43fc1b0869245a21edce118f8a44962269c0a78c15cbfdea79",
+      "publicHash": "4d0fc05827361f1cd552cdccfbbb295191e49e54ac73cddd855a837c8510c70b",
+      "recordId": "source-08-week-07-controlled-experiments",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-08-Evaluation.md",
+      "sourceHash": "26e5b2bfac14d97c427071c84cbd41dc17ee540476f230cba2d4a49c70fb33b5",
+      "publicHash": "4516f9c44885753ee70b81b8e7955b82a54e91a76573d47eae720307669ddc77",
+      "recordId": "source-09-week-08-evaluation",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-09-Scaling.md",
+      "sourceHash": "4016739d76cbdbbcfc230d6a948cbcafcb629a0077dc42b7dbce2fd5690a900b",
+      "publicHash": "45058230d29725da1d65da58fb9c2df40c463df22f52fe3dc1dc73e28b52563d",
+      "recordId": "source-10-week-09-scaling",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-10-Capstone.md",
+      "sourceHash": "0440fbf0802615a1b4d7f27ce053e50262b07580c384599ae9d43eb0c0df2db1",
+      "publicHash": "af3b7463f138850e82e425ff552a266b58809a81af408ed59e6b1c32d433681a",
+      "recordId": "source-11-week-10-capstone",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-11-GRPO.md",
+      "sourceHash": "14bbe5e946a68d5c4ba22f92c30b37137d4b42f558390f0a88b237256e96fc96",
+      "publicHash": "b593be4f2b89e53ab9d712ebee4af7c03fda4f3227de20834c8b5bd6e774571d",
+      "recordId": "source-12-week-11-grpo",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "01-Weeks/Week-12-Export-Deployment.md",
+      "sourceHash": "86227bb1edfe653b0736998bbd5a9ffa4cf2ce7d8dc0a2535d0d098e5e210b3f",
+      "publicHash": "47477087c9dec4ecd47b01a78ee087ca3642974de57f43ca3bed7b01e3c7e43f",
+      "recordId": "source-13-week-12-export-deployment",
+      "disposition": "published",
+      "output": "/roadmap",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "02-Experiments/EXP-2026-07-27-Qwen3.5-0.8B-Smoke-Test.md",
+      "sourceHash": "552238ff62ff9b41471a5f36521c76f7e6abb693ba972ec2a6ac6b84240d0f52",
+      "publicHash": "552238ff62ff9b41471a5f36521c76f7e6abb693ba972ec2a6ac6b84240d0f52",
+      "recordId": "source-14-exp-2026-07-27-qwen3-5-0-8b-smoke-test",
+      "disposition": "published",
+      "output": "/evidence",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "02-Experiments/EXP-2026-08-08-Qwen3-4B-FineTome-LoRA.md",
+      "sourceHash": "57cb02cf8214b824b59b56d47b3ed90d2f86523072fa50afb790fb5d3975e961",
+      "publicHash": "3ca8da495f1047469f4f92577bcba60353d10324794db81edb4d4f01f27b1f15",
+      "recordId": "source-15-exp-2026-08-08-qwen3-4b-finetome-lora",
+      "disposition": "published",
+      "output": "/evidence",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "02-Experiments/README.md",
+      "sourceHash": "33388b2098289f4ffa3dfda1d88add83e7cbf575d7d5ce29f39ac1473dc12fa0",
+      "publicHash": "33388b2098289f4ffa3dfda1d88add83e7cbf575d7d5ce29f39ac1473dc12fa0",
+      "recordId": "source-16-readme",
+      "disposition": "merged",
+      "output": "/evidence",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "03-Datasets/DATA-Condition-Monitoring-v01.md",
+      "sourceHash": "8383895567df8a696071440975f17c9496218715e3ede780b871823b94f3223b",
+      "publicHash": "8383895567df8a696071440975f17c9496218715e3ede780b871823b94f3223b",
+      "recordId": "source-17-data-condition-monitoring-v01",
+      "disposition": "published",
+      "output": "/data-evaluation",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "03-Datasets/README.md",
+      "sourceHash": "0d1278f13611e7e2469703a028e7e9f03f8961cda2dd2f27adebe48557dd4366",
+      "publicHash": "bae8e9c26c5219a7c0260fa624fc47faa0d3d393235bb5d8c405a0aaf45aa949",
+      "recordId": "source-18-readme",
+      "disposition": "merged",
+      "output": "/data-evaluation",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "04-Evaluations/EVAL-Benchmark-Blueprint.md",
+      "sourceHash": "52678c69965b4349318dc98bdc0cf2eb38b5591a638130138ae856bc42e1c340",
+      "publicHash": "52678c69965b4349318dc98bdc0cf2eb38b5591a638130138ae856bc42e1c340",
+      "recordId": "source-19-eval-benchmark-blueprint",
+      "disposition": "published",
+      "output": "/data-evaluation",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "04-Evaluations/README.md",
+      "sourceHash": "6c857ed10ded43505893374905043c065af2de30f2385c689d1bce064cc8cd5c",
+      "publicHash": "167051e82d6b385ba4e1cc75740ca636b3532558f9444ef98562d0fdd43ca13d",
+      "recordId": "source-20-readme",
+      "disposition": "merged",
+      "output": "/data-evaluation",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "05-Reference/4070TiS-Training-Playbook.md",
+      "sourceHash": "352527ebfbbec0ad1ecab40b7afb8c28b30f7e3ed1c72d06fe9e02fb6d973e99",
+      "publicHash": "06e27cafe749a560d4b52e24cd260ade2d0469edf8b19562e2500d62cd914ce0",
+      "recordId": "source-21-4070tis-training-playbook",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "05-Reference/CachyOS-Unsloth-Kurulum.md",
+      "sourceHash": "02ec9205ca159be0328fbeeb0bafffbc3fd27a7f3b5d897517f48964109519ac",
+      "publicHash": "02ec9205ca159be0328fbeeb0bafffbc3fd27a7f3b5d897517f48964109519ac",
+      "recordId": "source-22-cachyos-unsloth-kurulum",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "05-Reference/Data-Recipes-Industrial.md",
+      "sourceHash": "c24189378c0a500e890dd19f602e06602b9a7a478ae373a70a4411042136b04b",
+      "publicHash": "c24189378c0a500e890dd19f602e06602b9a7a478ae373a70a4411042136b04b",
+      "recordId": "source-23-data-recipes-industrial",
+      "disposition": "published",
+      "output": "/data-evaluation",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "05-Reference/Domain-Value-Map.md",
+      "sourceHash": "14b78df91171ac970502d37d2792cee1aec53df36a28bfd638eaf1dca3adad71",
+      "publicHash": "14b78df91171ac970502d37d2792cee1aec53df36a28bfd638eaf1dca3adad71",
+      "recordId": "source-24-domain-value-map",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "05-Reference/LoRA-QLoRA-Derinlemesine.md",
+      "sourceHash": "da949e90728dbcd29206baa50bd29e30f677638fd70b4f2e02f71d377c7a2834",
+      "publicHash": "da949e90728dbcd29206baa50bd29e30f677638fd70b4f2e02f71d377c7a2834",
+      "recordId": "source-25-lora-qlora-derinlemesine",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-Base-Instruct-Reasoning.md",
+      "sourceHash": "82f5c7f05103a2fe2c400481c2c88a994922a7cb308fc9cdc135b7b83b2766ef",
+      "publicHash": "63c0ca7c6cea7d8f270e2fac3773a8a0e45b6c54dad8ca213800d50d2d31a007",
+      "recordId": "source-26-concept-base-instruct-reasoning",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-Chat-Template-Uyumsuzlugu.md",
+      "sourceHash": "a0ac5fbb9d0877c94e699de933c1fd8b4bae3e95948ce3994abe36f8db5605a4",
+      "publicHash": "8f98721ab363d2e10c2e05ea318d890f2a0651760f0a6389f32d6c5994748260",
+      "recordId": "source-27-concept-chat-template-uyumsuzlugu",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-Epoch-Step-Batch.md",
+      "sourceHash": "0edf27006131305f0ab00eaf03ece6afd21e8c4523f68ee4606349db0543a057",
+      "publicHash": "0edf27006131305f0ab00eaf03ece6afd21e8c4523f68ee4606349db0543a057",
+      "recordId": "source-28-concept-epoch-step-batch",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-LoRA-QLoRA.md",
+      "sourceHash": "8c7435c1a29eb7947492899769e2a333e8a2344b14d3f887709cf4e4b2968565",
+      "publicHash": "ce3abc2534566413b52a841e5fced3866a1d5721e9791c1b6e5066e8948bb541",
+      "recordId": "source-29-concept-lora-qlora",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-Loss-Overfitting-Catastrophic-Forgetting.md",
+      "sourceHash": "cb74f4284118c68602734ca250c9479cd5a65e6bc8d9fe8090116dd744c4823a",
+      "publicHash": "d2c120d8f0383fbca3429abc302b1735d4fec7f7c78f1326a412708186871972",
+      "recordId": "source-30-concept-loss-overfitting-catastrophic-forgetting",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-Rank-Alpha-Target-Modules.md",
+      "sourceHash": "e7bd01a0853967ee382a3556b374576966fd79bc4205a1d79ada139e83acac74",
+      "publicHash": "e7bd01a0853967ee382a3556b374576966fd79bc4205a1d79ada139e83acac74",
+      "recordId": "source-31-concept-rank-alpha-target-modules",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-Token-ContextLength-Attention.md",
+      "sourceHash": "7ddd205d12c234f391166eef72ced8a06f777a45c8d5e317246d135b32beef6b",
+      "publicHash": "96fa27d80568fdc292d2eee4001b424080647839fbceddc47c0730c1918e7dae",
+      "recordId": "source-32-concept-token-contextlength-attention",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/CONCEPT-Turkce-Token-Verimliligi.md",
+      "sourceHash": "cbc373135ad1002db40160c05dc3b48c25e5a5642e21ed56774894935eca7536",
+      "publicHash": "873cab7ef5d74731bbe0e3a608a848981de5cace1f1cb1ce6d8c05c572a1871e",
+      "recordId": "source-33-concept-turkce-token-verimliligi",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Concepts/README.md",
+      "sourceHash": "6cf7f692758dc9fc0fad9ab39574ae45a46ab821ed5fbe7572cd7369ec22065b",
+      "publicHash": "6cf7f692758dc9fc0fad9ab39574ae45a46ab821ed5fbe7572cd7369ec22065b",
+      "recordId": "source-34-readme",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Journal/README.md",
+      "sourceHash": "997ef12eb19f95dbe9ab897842af2953bf242eaed44c8474f7768b2e19f31153",
+      "publicHash": "f9b7325439249b04cdd93e6dc3cdfddf0a1e04fe2d43a4a4525aa6f7f2e865d8",
+      "recordId": "source-35-readme",
+      "disposition": "merged",
+      "output": "/journey",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Journal/Week-01-Learning-Journal.md",
+      "sourceHash": "6939ba0a3cce4eca4dd1997b1a2fd4e1721006ca5f6da0b90b388daf3cf6ead0",
+      "publicHash": "ffc66e9eeeff59f61e5bba6890d5f3d01ec65ffc966759b8e57363432c704063",
+      "recordId": "source-36-week-01-learning-journal",
+      "disposition": "merged",
+      "output": "/journey",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Journal/Week-02-Learning-Journal.md",
+      "sourceHash": "cef564716b618b34e3eb28f66fd0ec74981c38f573d2788869812a12f5d67cfe",
+      "publicHash": "9e1250b4dea4f34f48e188111eb1463bd5d95b822e7edf87009e8aff356b41bf",
+      "recordId": "source-37-week-02-learning-journal",
+      "disposition": "merged",
+      "output": "/journey",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "README.md",
+      "sourceHash": "0ec19059246c0370b5e90c75469290f339ff7d838ab3abf19e83a48685a4d101",
+      "publicHash": "e22a3e5a5222a4d9132c06d624607daf272e3a745c0d8aee70418518b696a8d9",
+      "recordId": "source-38-readme",
+      "disposition": "merged",
+      "output": "/dashboard",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Summary/README.md",
+      "sourceHash": "2b4b307f4d52cbd4e812acf9b0907fc4491d94bcba44dca3b6e0b4448c24484f",
+      "publicHash": "2b4b307f4d52cbd4e812acf9b0907fc4491d94bcba44dca3b6e0b4448c24484f",
+      "recordId": "source-39-readme",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Summary/REVIEW-Week-01.md",
+      "sourceHash": "a8383bed85f6db96b69b98f6a381f0fc5a127c4ea176a1a32073e336996bf51c",
+      "publicHash": "336842a87fbd1fe0ef1acbfada5043d92361f52573656fa14b05a0ba1f4bf4f3",
+      "recordId": "source-40-review-week-01",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Summary/Week-01-Conceptual-Summary.md",
+      "sourceHash": "48eebfe445667e7e0f9108e89580aabbc483971e0ed531cfa3b1adc5661ab6c9",
+      "publicHash": "48eebfe445667e7e0f9108e89580aabbc483971e0ed531cfa3b1adc5661ab6c9",
+      "recordId": "source-41-week-01-conceptual-summary",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Summary/Week-01-Epoch-Step-Micro-Batch-Gradient-Accumulation-Summary.md",
+      "sourceHash": "268a5f5aa07e2346ecabc780f110c1e9954ebdb4fafd8ff58a6093de92d11d2b",
+      "publicHash": "268a5f5aa07e2346ecabc780f110c1e9954ebdb4fafd8ff58a6093de92d11d2b",
+      "recordId": "source-42-week-01-epoch-step-micro-batch-gradient-accumulation-summary",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Summary/Week-01-Loss-Overfitting-Catastrophic-Forgetting-Summary.md",
+      "sourceHash": "a7bdc6183e4eba18c942f76415a46eb16ecb3c898ecc8a30110c6cb21674f3ca",
+      "publicHash": "e7bae9a21765064ec5379299e5f325c1fc038f63efac49679f971bba7d17616b",
+      "recordId": "source-43-week-01-loss-overfitting-catastrophic-forgetting-summary",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Summary/Week-01-Rank-Alpha-Target-Modules-Summary.md",
+      "sourceHash": "1d4dd2afd7b76e05c9a1032803fe69b703d5fde3a06896ccda000700aa4bf2fb",
+      "publicHash": "1d4dd2afd7b76e05c9a1032803fe69b703d5fde3a06896ccda000700aa4bf2fb",
+      "recordId": "source-44-week-01-rank-alpha-target-modules-summary",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Summary/Week-01-Token-Context-Attention-Summary.md",
+      "sourceHash": "5195650381b7fe141dc59103a2fc17a2e2f51c1ff8d2ca2cd1b5ba8461ba6eea",
+      "publicHash": "7fb9ab83f4a01629eded6c48397ee74551333f77dfb7d49d8bf01dd306658759",
+      "recordId": "source-45-week-01-token-context-attention-summary",
+      "disposition": "merged",
+      "output": "/learn",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Templates/Concept-Note-Template.md",
+      "sourceHash": "40b0b0bf227436a41c79f5443d16d29cd8bd90a867b2a85b4e58e00d6fbbb377",
+      "publicHash": "d8238f60f1a695b34d1669605c4b3d79188e89e1923bbe4a42ab305a0ff1a84e",
+      "recordId": "source-46-concept-note-template",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Templates/Dataset-Card-Template.md",
+      "sourceHash": "1d6f26db5a434545dfebf251c0afb433166a6d5c157a7e8727cd934fbfc8ea08",
+      "publicHash": "3254f2bdb556d5ee713a34fee35a9701ee25d708e59918e9e9b4a04c0cf98fbe",
+      "recordId": "source-47-dataset-card-template",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Templates/Evaluation-Template.md",
+      "sourceHash": "182cda7f547aa9b2035e5b0cef6c1d1fd432e734750c872e57ed63800dd31b00",
+      "publicHash": "ef51fc7d0817c1f253afb471568d9a75587c74fe8024f9baffda0f8b4d6dd32f",
+      "recordId": "source-48-evaluation-template",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Templates/Experiment-Template.md",
+      "sourceHash": "23c0f6eaca7e1fce56c7081c44af194e21e3020a7693dbfeb762e2cdf7a13d43",
+      "publicHash": "3b833fd7ca6620ad52c11703fff377e6f2ed440a105e2308cb3e0ee03e77b75e",
+      "recordId": "source-49-experiment-template",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    },
+    {
+      "sourcePath": "Templates/Weekly-Review-Template.md",
+      "sourceHash": "beba5e402de3c6779b4ab3292782e51d8b534417b5ca3b4d909e327f865bfeac",
+      "publicHash": "8b6e84e05d1a4ffbdfa3cff016a39a0747cd6d2f7a22af172eb544dff939cd8c",
+      "recordId": "source-50-weekly-review-template",
+      "disposition": "published",
+      "output": "/labs",
+      "brokenLinks": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Unsloth Studio Learning Atlas — Full Guide
+
+The atlas turns 50 sanitized Markdown sources into one Turkish and English learning product. Stable content IDs are shared across locales and browser progress remains on-device under `unsloth-atlas-progress:v1`.
+
+## Curriculum
+
+The 12-week route moves through foundations, setup verification, Studio workflow, controlled smoke tests, dataset engineering, a first QLoRA run, one-variable experiments, evaluation, scaling, an industrial capstone, GRPO, and export/deployment.
+
+## Foundational lessons
+
+1. Base, Instruct, and Reasoning model selection
+2. Tokens, context, attention, and KV cache
+3. LoRA and QLoRA
+4. Rank, alpha, rsLoRA, and target modules
+5. Epoch, micro-step, optimizer step, and gradient accumulation
+6. Loss, overfitting, and catastrophic forgetting
+7. Chat templates and response-only masking
+8. Dataset and evaluation discipline
+
+## Labs
+
+Context budget, effective batch and optimizer steps, LoRA scale and parameter count, manual tokenizer comparison, dataset mix, weighted benchmark, template/masking checklist, and a 16 GB GPU planning guide. These are teaching simulations unless a user enters a real measurement.
+
+## Evaluation policy
+
+A model is not accepted on training loss alone. Domain accuracy, format validity, safety, uncertainty behavior, and general-capability retention are separate dimensions. Train, validation, and independent test sources must be separated and leakage-checked.
+
+## Recorded experiment
+
+The Qwen3 4B + FineTome LoRA run completed 30/30 steps, ended at training loss 0.8245, and saved/reloaded its adapter. An observed 9.62 / 15.99 GiB snapshot is not labeled as peak VRAM. There was no evaluation split, and the base model was stronger in all three fixed qualitative comparisons. Therefore the result proves pipeline completion, not model quality improvement.
+
+## Licensing
+
+Code is MIT licensed. Original educational content in this repository is CC BY 4.0.

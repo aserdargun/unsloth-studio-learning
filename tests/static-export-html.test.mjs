@@ -1,0 +1,22 @@
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import test from "node:test";
+
+const root = new URL("../", import.meta.url);
+
+async function readExportedPage(path) {
+  return readFile(new URL(`out/${path}/index.html`, root), "utf8");
+}
+
+test("uses the site name as the browser title on every exported page type", async () => {
+  const pages = await Promise.all([
+    readExportedPage("en"),
+    readExportedPage("tr"),
+    readExportedPage("en/labs"),
+    readExportedPage("tr/learn/models"),
+  ]);
+
+  for (const html of pages) {
+    assert.match(html, /<title>Unsloth Studio Learning<\/title>/);
+  }
+});

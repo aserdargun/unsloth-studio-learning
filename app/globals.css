@@ -278,3 +278,190 @@ footer a:hover { color: var(--orange); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* Personal profile template -------------------------------------------------
+   The learning surfaces intentionally share the same bold, card-led visual
+   language as the personal profile: a paper canvas, ink borders, cobalt
+   accents, generous rounded corners, and compact floating navigation. */
+:root {
+  --bg: #f4f3ee;
+  --surface: #ffffff;
+  --surface-2: #e9e7df;
+  --line: #171717;
+  --text: #171717;
+  --muted: #62615c;
+  --orange: #3155f5;
+  --yellow: #d9ff43;
+  --green: #16865b;
+  --aqua: #59d8c4;
+  --blue: #3155f5;
+  --red: #dc3f4e;
+  --shadow: 8px 8px 0 #171717;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #141414;
+  --surface: #202020;
+  --surface-2: #2a2a2a;
+  --line: #f2f0e8;
+  --text: #f2f0e8;
+  --muted: #b8b5aa;
+  --orange: #7890ff;
+  --yellow: #d9ff43;
+  --green: #6ed6a5;
+  --aqua: #59d8c4;
+  --blue: #7890ff;
+  --red: #ff7180;
+  --shadow: 8px 8px 0 #f2f0e8;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(color-mix(in srgb, var(--text) 14%, transparent) .7px, transparent .7px);
+  background-size: 18px 18px;
+}
+
+.site-shell { padding-top: 1rem; }
+.site-header {
+  width: min(1380px, calc(100% - 2rem));
+  min-height: 68px;
+  margin: 0 auto;
+  padding: .55rem .65rem .55rem 1rem;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  box-shadow: 4px 4px 0 var(--line);
+}
+.brand { min-width: 220px; gap: .65rem; }
+.brand-mark {
+  width: 2.55rem;
+  height: 2.55rem;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  background: var(--yellow);
+  color: #171717;
+  clip-path: none;
+}
+.brand b { font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
+.brand small { font-size: .64rem; }
+.site-header nav { gap: .25rem; }
+.site-header nav a {
+  padding: .65rem .8rem;
+  border-radius: 999px;
+  font-size: .7rem;
+}
+.site-header nav a.active { background: var(--text); color: var(--bg); }
+.site-header nav a.active::after { display: none; }
+.header-actions a, .header-actions button {
+  min-height: 2.5rem;
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+}
+.header-actions button { width: 2.5rem; padding: 0; }
+
+#main { padding-top: clamp(2.5rem, 5vw, 5rem); }
+.surface-stack { gap: clamp(5rem, 9vw, 9rem); }
+.eyebrow, .kicker {
+  display: inline-flex;
+  width: fit-content;
+  padding: .4rem .65rem;
+  border: 1.5px solid currentColor;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #171717;
+  letter-spacing: .1em;
+}
+.kicker { background: transparent; color: var(--muted); }
+.hero { min-height: min(710px, 78vh); grid-template-columns: minmax(0, 1fr) minmax(220px, .32fr); gap: clamp(2rem, 6vw, 6rem); }
+.hero h1, .page-intro h1, .lesson-hero h1 { letter-spacing: -.065em; }
+.hero h1 { font-size: clamp(3.8rem, 8.4vw, 8.8rem); line-height: .86; }
+.hero h1 em { position: relative; display: inline-block; color: var(--orange); }
+.hero h1 em::after { content: ""; position: absolute; z-index: -1; left: -.02em; right: -.04em; bottom: .02em; height: .14em; background: var(--yellow); transform: rotate(-1deg); }
+.hero-actions a, .lesson-page button, .week-card button, .quiz-card button {
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  box-shadow: 3px 3px 0 var(--line);
+}
+.hero-actions .primary { border-color: var(--line); background: var(--orange); color: #fff; }
+.hero-actions a:hover, .lesson-page button:hover, .week-card button:hover, .quiz-card button:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--line); }
+.hero-rail { gap: .75rem; border-left: 0; }
+.hero-rail div { padding: 1.25rem; border: 2px solid var(--line); border-radius: 1rem; background: var(--surface); box-shadow: 4px 4px 0 var(--line); }
+.hero-rail div:nth-child(2n) { background: var(--yellow); color: #171717; transform: rotate(1.5deg); }
+.hero-rail b { color: var(--orange); font-size: 1.8rem; }
+.hero-rail div:nth-child(2n) b, .hero-rail div:nth-child(2n) span { color: #171717; }
+
+.progress-duo, .lesson-grid, .evidence-summary, .recipe-grid, .journey-flow { gap: 1rem; border: 0; background: transparent; }
+.progress-duo article, .lesson-tile, .evidence-summary article, .recipe-grid article, .journey-flow article {
+  border: 2px solid var(--line);
+  border-radius: 1.25rem;
+  box-shadow: 5px 5px 0 var(--line);
+}
+.progress-duo article:nth-child(2) { background: var(--yellow); color: #171717; }
+.progress-duo article:nth-child(2) .kicker, .progress-duo article:nth-child(2) p, .progress-duo article:nth-child(2) .meter-label { color: #171717; }
+.meter-track { height: 9px; border: 1px solid var(--line); border-radius: 99px; background: var(--surface-2); }
+.meter-track span { border-radius: inherit; background: var(--orange); }
+.focus-card, .quiz-card {
+  border: 2px solid var(--line);
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow);
+}
+.focus-card { background: var(--yellow); color: #171717; }
+.focus-card p, .focus-card li, .focus-card .meter-label { color: #34342f; }
+.week-number { color: var(--orange); }
+.lesson-tile { min-height: 310px; }
+.lesson-tile:hover { background: var(--yellow); color: #171717; transform: translate(-3px, -3px) rotate(-.4deg); box-shadow: 8px 8px 0 var(--line); }
+.lesson-tile > b { color: var(--orange); }
+
+.page-intro { padding-top: clamp(3rem, 7vw, 7rem); }
+.lab-grid { gap: 1.25rem; }
+.lab-card, .week-details, .verdict, .gate-grid article, .lesson-body aside, .review-plan {
+  border: 2px solid var(--line);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--line);
+}
+.lab-card:nth-child(3n + 1) { background: color-mix(in srgb, var(--yellow) 32%, var(--surface)); }
+.field input, .answer { border: 2px solid var(--line); border-radius: .75rem; background: var(--surface); }
+.result, .explanation { border: 2px solid var(--line); border-radius: .9rem; }
+.metrics { gap: .5rem; background: transparent; }
+.metrics div { border: 1px solid var(--line); border-radius: .75rem; }
+.week-marker span { border: 2px solid var(--line); border-radius: 50%; background: var(--yellow); color: #171717; box-shadow: 3px 3px 0 var(--line); }
+.week-marker i { width: 2px; background: var(--line); }
+.score-orb { border-color: var(--line); background: var(--yellow); box-shadow: 5px 5px 0 var(--line); }
+.score-orb strong, .score-orb span { color: #171717; }
+.comparison-table > div { margin-bottom: .65rem; border: 1.5px solid var(--line); border-radius: .75rem; background: var(--surface); }
+
+footer {
+  width: min(1380px, calc(100% - 2rem));
+  margin: 2rem auto 1rem;
+  padding: 1.25rem 1.5rem;
+  border: 2px solid var(--line);
+  border-radius: 1.25rem;
+  background: var(--surface);
+  box-shadow: 4px 4px 0 var(--line);
+}
+.locale-gateway::before { content: "U"; display: grid; width: 5rem; height: 5rem; place-items: center; margin: 0 auto 2rem; border: 2px solid #171717; border-radius: 50%; background: var(--yellow); color: #171717; box-shadow: 6px 6px 0 #171717; font: 700 2rem var(--font-plex-mono), monospace; }
+.gateway-actions a { border: 2px solid var(--line); border-radius: 999px; background: var(--orange); color: #fff; box-shadow: 4px 4px 0 var(--line); }
+
+@media (max-width: 1120px) {
+  .site-header { border-radius: 1.5rem; }
+  .site-header nav { border-top: 1px solid color-mix(in srgb, var(--line) 22%, transparent); }
+}
+
+@media (max-width: 760px) {
+  .site-shell { padding-top: .5rem; }
+  .site-header { width: calc(100% - 1rem); padding: .5rem; border-radius: 1.15rem; }
+  .site-header nav { gap: .1rem; }
+  .site-header nav a { padding: .55rem .7rem; }
+  .brand b { font-size: .72rem; }
+  .hero h1 { font-size: clamp(3.35rem, 17vw, 6rem); }
+  .hero-rail { gap: .6rem; }
+  .hero-rail div { padding: 1rem; }
+  .hero-actions { flex-wrap: wrap; }
+  footer { width: calc(100% - 1rem); }
+}

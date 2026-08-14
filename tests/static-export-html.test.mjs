@@ -20,3 +20,16 @@ test("uses the site name as the browser title on every exported page type", asyn
     assert.match(html, /<title>Unsloth Studio Learning<\/title>/);
   }
 });
+
+test("publishes canonical and source links for the usl deployment contract", async () => {
+  const pages = await Promise.all([
+    readExportedPage("en"),
+    readExportedPage("tr"),
+  ]);
+
+  for (const html of pages) {
+    assert.match(html, /https:\/\/usl\.aserdargun\.com/);
+    assert.doesNotMatch(html, /https:\/\/unsloth\.aserdargun\.com/);
+    assert.match(html, /https:\/\/github\.com\/aserdargun\/usl-aserdargun-com/);
+  }
+});

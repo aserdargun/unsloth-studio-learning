@@ -4,7 +4,7 @@ import { lessons, routeSurfaces } from "./atlas-data";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const origin = "https://unsloth.aserdargun.com";
+  const origin = "https://usl.aserdargun.com";
   const paths = ["", ...routeSurfaces.map((surface) => `${surface}/`), ...lessons.tr.map((lesson) => `learn/${lesson.slug}/`)];
   return paths.flatMap((path) => ["tr", "en"].map((locale) => ({
     url: `${origin}/${locale}/${path}`,

@@ -4,8 +4,8 @@
 
 ## Languages
 
-- Turkish: https://unsloth.aserdargun.com/tr/
-- English: https://unsloth.aserdargun.com/en/
+- Turkish: https://usl.aserdargun.com/tr/
+- English: https://usl.aserdargun.com/en/
 
 ## Core sections
 
@@ -21,4 +21,4 @@
 Every claim is classified as verified, observed, planned, unknown, or simulation. Planning calculators do not execute a GPU. The recorded Qwen3 4B run completed 30/30 steps and saved/reloaded the adapter, but it had no evaluation split and did not prove a quality gain.
 
 Full machine-readable guide: /llms-full.txt
-Source: https://github.com/aserdargun/unsloth-studio-learning
+Source: https://github.com/aserdargun/usl-aserdargun-com

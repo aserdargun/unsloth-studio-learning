@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { lessons, type Locale, type Surface } from "./atlas-data";
 
-const origin = "https://unsloth.aserdargun.com";
+const origin = "https://usl.aserdargun.com";
 const surfaceTitles: Record<Locale, Record<Surface, string>> = {
   tr: { dashboard: "Panel", roadmap: "12 Haftalık Yol Haritası", labs: "Etkileşimli Laboratuvarlar", evidence: "Deney ve Kanıt Kaydı", "data-evaluation": "Veri ve Değerlendirme", journey: "Öğrenme Yolculuğu" },
   en: { dashboard: "Dashboard", roadmap: "12-Week Roadmap", labs: "Interactive Labs", evidence: "Experiment and Evidence Record", "data-evaluation": "Data and Evaluation", journey: "Learning Journey" },

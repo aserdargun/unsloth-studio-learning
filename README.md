@@ -115,7 +115,7 @@ There is no account, backend, central database, or live GPU connection in v1.
 
 Production is built from `main` and deployed to Azure Static Web Apps. The footer embeds `NEXT_PUBLIC_COMMIT_SHA` so the browser, GitHub `main`, and the deployed artifact can be reconciled.
 
-Target: [unsloth.aserdargun.com](https://unsloth.aserdargun.com)
+Target: [usl.aserdargun.com](https://usl.aserdargun.com)
 
 ## License
 

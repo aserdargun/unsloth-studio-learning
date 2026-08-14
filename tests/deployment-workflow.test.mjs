@@ -32,3 +32,13 @@ test("the production workflow builds and serially uploads only the verified out 
 test("no obsolete Azure deployment workflow remains active", async () => {
   await assert.rejects(access(new URL("../.github/workflows/azure-static-web-apps.yml", import.meta.url)));
 });
+
+test("the CI workflow uses the current immutable GitHub Actions runtimes", async () => {
+  const workflow = await readFile(new URL("../.github/workflows/ci.yml", import.meta.url), "utf8");
+  const actionUses = [...workflow.matchAll(/^\s+(?:- )?uses: ([^\s]+)$/gm)].map((match) => match[1]);
+
+  assert.deepEqual(actionUses.slice(0, 2), [
+    "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "actions/setup-node@820762786026740c76f36085b0efc47a31fe5020",
+  ]);
+});

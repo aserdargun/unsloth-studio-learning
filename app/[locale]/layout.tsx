@@ -10,5 +10,5 @@ export const viewport = baseViewport;
 
 export default async function LocaleLayout({ children, params }: Readonly<{ children: React.ReactNode; params: Promise<{ locale: string }> }>) {
   const { locale } = await params;
-  return <html lang={locale === "en" ? "en" : "tr"} suppressHydrationWarning><body className={`${manrope.variable} ${plexMono.variable}`}><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(courseJsonLd) }} />{children}</body></html>;
+  return <html lang={locale === "en" ? "en" : "tr"} suppressHydrationWarning><body className={`${manrope.variable} ${plexMono.variable}`}><script dangerouslySetInnerHTML={{ __html: `try{var t=localStorage.getItem("unsloth-atlas-theme");if(t!=="light"&&t!=="dark"){t=window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";}document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme="dark";}` }} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(courseJsonLd) }} />{children}</body></html>;
 }

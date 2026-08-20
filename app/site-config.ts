@@ -15,7 +15,7 @@ export const baseMetadata: Metadata = {
 export const baseViewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: [{ media: "(prefers-color-scheme: dark)", color: "#1d2021" }, { media: "(prefers-color-scheme: light)", color: "#f9f5d7" }],
+  themeColor: [{ media: "(prefers-color-scheme: dark)", color: "#0b1220" }, { media: "(prefers-color-scheme: light)", color: "#f8fafc" }],
 };
 
 export const courseJsonLd = {
